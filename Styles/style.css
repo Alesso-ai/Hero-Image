@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+  --h1-font-size: 6rem;
+  --span-font-size: 3.5rem;
+  --input-size: 20.75rem;
+}
+
+@media screen and (max-width: 450px) {
+  :root {
+    --h1-font-size: 2.5rem;
+    --span-font-size: 1.75rem;
+    --input-size: 10.8rem;
+  }
+}
+ 
+*, ::after, ::before{
+    box-sizing: border-box;
+    font: Roboto Condensed, sans-serif;
+}
+
+.hero-container{
+  background: url(/assets/img/Loro\ JPG.jpg) center/cover;
+  height: 100vh;
+  position: relative;
+}
