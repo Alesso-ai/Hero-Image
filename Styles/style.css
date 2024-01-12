@@ -27,7 +27,9 @@
   background: url(/assets/img/opti.jpg) center/cover;
   /*Aqui para cortar la magen*/
   height: 80vh;
+  /*--------------------------*/
   position: relative;
+  clip-path: polygon( 0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
 }
 
 .hero-container::before{
