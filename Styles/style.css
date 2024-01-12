@@ -25,7 +25,8 @@
 
 .hero-container{
   background: url(/assets/img/opti.jpg) center/cover;
-  height: 100vh;
+  /*Aqui para cortar la magen*/
+  height: 80vh;
   position: relative;
 }
 
